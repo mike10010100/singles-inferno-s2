@@ -16,17 +16,17 @@ const STORAGE_KEY = 'singles_inferno_s2_state';
 
 const initialContestants: Contestant[] = [
   // Initial Women
-  { id: 1, name: "Shin Seul-ki", gender: 'Female', imageUrl: "https://i.mydramalist.com/X2W6P_5f.jpg", status: 'Inferno', isLocked: false, notes: "" },
-  { id: 2, name: "Park Se-jeong", gender: 'Female', imageUrl: "https://i.mydramalist.com/vB1kR_5f.jpg", status: 'Inferno', isLocked: false, notes: "" },
-  { id: 3, name: "Lee Nadine", gender: 'Female', imageUrl: "https://i.mydramalist.com/pB2RE_5f.jpg", status: 'Inferno', isLocked: false, notes: "" },
-  { id: 4, name: "Choi Seo-eun", gender: 'Female', imageUrl: "https://i.mydramalist.com/X2W4P_5f.jpg", status: 'Inferno', isLocked: false, notes: "" },
-  { id: 5, name: "Lee So-e", gender: 'Female', imageUrl: "https://i.mydramalist.com/jBndV_5f.jpg", status: 'Inferno', isLocked: false, notes: "" },
+  { id: 1, name: "Shin Seul-ki", gender: 'Female', imageUrl: "https://i.mydramalist.com/1wd6y6_5f.jpg", status: 'Inferno', isLocked: false, notes: "" },
+  { id: 2, name: "Park Se-jeong", gender: 'Female', imageUrl: "https://i.mydramalist.com/VXLkPO_5f.jpg", status: 'Inferno', isLocked: false, notes: "" },
+  { id: 3, name: "Lee Nadine", gender: 'Female', imageUrl: "https://i.mydramalist.com/0wz1K6_5f.jpg", status: 'Inferno', isLocked: false, notes: "" },
+  { id: 4, name: "Choi Seo-eun", gender: 'Female', imageUrl: "https://i.mydramalist.com/28PEO_5f.jpg", status: 'Inferno', isLocked: false, notes: "" },
+  { id: 5, name: "Lee So-e", gender: 'Female', imageUrl: "https://i.mydramalist.com/x4Alpz_5f.jpg", status: 'Inferno', isLocked: false, notes: "" },
   
   // Initial Men
-  { id: 6, name: "Choi Jong-woo", gender: 'Male', imageUrl: "https://i.mydramalist.com/X2WxP_5f.jpg", status: 'Inferno', isLocked: false, notes: "" },
-  { id: 7, name: "Jo Yoong-jae", gender: 'Male', imageUrl: "https://i.mydramalist.com/dBxR0_5f.jpg", status: 'Inferno', isLocked: false, notes: "" },
-  { id: 8, name: "Kim Han-bin", gender: 'Male', imageUrl: "https://i.mydramalist.com/RB2RE_5f.jpg", status: 'Inferno', isLocked: false, notes: "" },
-  { id: 9, name: "Shin Dong-woo", gender: 'Male', imageUrl: "https://i.mydramalist.com/qBndV_5f.jpg", status: 'Inferno', isLocked: false, notes: "" },
+  { id: 6, name: "Choi Jong-woo", gender: 'Male', imageUrl: "https://i.mydramalist.com/5v8QvA_5f.jpg", status: 'Inferno', isLocked: false, notes: "" },
+  { id: 7, name: "Jo Yoong-jae", gender: 'Male', imageUrl: "https://i.mydramalist.com/wJxV0b_5f.jpg", status: 'Inferno', isLocked: false, notes: "" },
+  { id: 8, name: "Kim Han-bin", gender: 'Male', imageUrl: "https://i.mydramalist.com/1wmL4R_5f.jpg", status: 'Inferno', isLocked: false, notes: "" },
+  { id: 9, name: "Shin Dong-woo", gender: 'Male', imageUrl: "https://i.mydramalist.com/2wrqNO_5f.jpg", status: 'Inferno', isLocked: false, notes: "" },
 
   // Late Comers (Locked)
   { id: 10, name: "??? (Male)", gender: 'Male', imageUrl: "https://placehold.co/400x600/1a1a1a/ffffff?text=LOCKED", status: 'Inferno', isLocked: true, notes: "Arrives later" },
