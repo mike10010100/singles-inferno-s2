@@ -12,7 +12,7 @@ interface Contestant {
   notes: string;
 }
 
-const STORAGE_KEY = 'singles_inferno_s2_state';
+const STORAGE_KEY = 'singles_inferno_s2_state_v2';
 
 const initialContestants: Contestant[] = [
   // Initial Women
