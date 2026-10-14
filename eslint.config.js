@@ -1,9 +1,19 @@
+import Module from 'node:module'
 import js from '@eslint/js'
 import globals from 'globals'
 import reactHooks from 'eslint-plugin-react-hooks'
 import reactRefresh from 'eslint-plugin-react-refresh'
-import tseslint from 'typescript-eslint'
 import { defineConfig, globalIgnores } from 'eslint/config'
+
+const origResolveFilename = Module._resolveFilename
+Module._resolveFilename = function (request, parent, isMain, options) {
+  if (request === 'typescript') {
+    return origResolveFilename.call(this, '@typescript/typescript6', parent, isMain, options)
+  }
+  return origResolveFilename.call(this, request, parent, isMain, options)
+}
+
+const { default: tseslint } = await import('typescript-eslint')
 
 export default defineConfig([
   globalIgnores(['dist']),
